@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woowf</title>
+
+  <!-- 
+    - favicon
+  
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+--> 
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+        rel="stylesheet">
+   
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="../assets/images/woowf.svg" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="../assets/images/woowf.svg" width="150" height="50" alt="Woowf logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="../assets/images/woowf.svg" width="190" height="50" alt="Woowf logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="nav-action-btn">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            <a href="page/sitter.html" class="navbar-link">Search Sitters</a>
+            
+            </button>
+          </li>
+          <li class="navbar-list">
+            <button class="nav-action-btn">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            <a href="#" class="navbar-link">Become Sitters</a>
+            
+            </button>
+          </li>
+          <li class="navbar-item">
+            <button class="nav-action-btn">
+            <ion-icon name="service-card" aria-hidden="true"></ion-icon>
+            <a href="#" class="navbar-link">Our Services</a>
+            
+            </button>
+          </li>
+        </ul>
+
+        <ul class="nav-action-list">
+
+
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('../assets/images/sitter_banner.png')">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            <strong>Sitter for your Pet</strong>
+            Your Trusted Companion  <br>
+            in Pet Care
+            
+          </h2>
+
+          <p class="hero-text">
+            At Woowf, we understand that your furry friends are more 
+            than just pets—they're family. Our mission is to provide top-
+            notch pet care services tailored to the unique needs of Indian 
+            pet owners, with a special focus on dogs. Whether you need 
+            expert dog training, reliable pet sitting, or any other pet-related 
+            services, we've got you covered.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Sign Up</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+     
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

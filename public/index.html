@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woowf</title>
+
+  <!-- 
+    - favicon
+  
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+--> 
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+        rel="stylesheet">
+   
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/woowf.svg" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/woowf.svg" width="150" height="50" alt="Woowf logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/woowf.svg" width="190" height="50" alt="Woowf logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="page/sitter.html" class="navbar-link">Search Sitters</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Become Sitters</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Our Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Dog Training</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Help</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/banner_dog.png')">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            <strong>Welcome to Woowf:</strong>
+            Your Trusted Companion  <br>
+            in Pet Care
+            
+          </h2>
+
+          <p class="hero-text">
+            At Woowf, we understand that your furry friends are more 
+            than just pets—they're family. Our mission is to provide top-
+            notch pet care services tailored to the unique needs of Indian 
+            pet owners, with a special focus on dogs. Whether you need 
+            expert dog training, reliable pet sitting, or any other pet-related 
+            services, we've got you covered.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Sign Up</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Choice of Services
+      
+
+      <section class="section collection">
+        <div class="container" >
+
+          <ul class="collection-list has-scrollbar">
+
+            <li>
+              <div class="collection-card"  style="background-image: url('./assets/images/light\ weight\ truck.png')">
+                <h3 class="h4 card-title">Light Weight (4 wheeler)</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/3\ weeler.png')">
+                <h3 class="h4 card-title">Light Weight (3 wheeler)</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/pickup.png')">
+                <h3 class="h4 card-title">Pickup</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+-->
+
+
+
+      <!-- 
+        - #Services
+      -->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">Looking for Service your Pet?</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">Training</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Sitting</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Boarding</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Walks</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Day Care</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Grooming</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/training.png" width="312" height="350" loading="lazy"
+                    alt="Training" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Dog/Cat</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Training</a>
+                  </h3>
+
+                  <data class="card-price" value="999">INR 999/-</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/sitting.png " width="312" height="350" loading="lazy"
+                    alt="sitting" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Dog/Cat</a> 
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Pet Sitting</a>
+                  </h3>
+
+                  <data class="card-price" value="599">INR 599/-</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/walking.png" width="312" height="350" loading="lazy"
+                    alt="walking" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Dog</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Dog Walking</a>
+                  </h3>
+
+                  <data class="card-price" value="300">INR 300/-</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/grooming.png" width="312" height="350" loading="lazy"
+                    alt="grooming" class="image-contain">
+
+                  <div class="card-badge"> -75%</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Dog/Cat</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Grooming</a>
+                  </h3>
+
+                  <data class="card-price" value="2000">INR 499 <del>INR 2000</del></data>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <ul class="cta-list">
+
+            <li>
+              <div class="cta-card" style="background-image: url('./assets/images/monsoon_sale.png')">
+                <p class="card-subtitle">Exclusive</p>
+
+                <h3 class="h2 card-title">The Monsoon Sale Off 50%</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Check Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="cta-card" style="background-image: url('./assets/images/accesiories.png')">
+                <p class="card-subtitle">New Accesories</p>
+
+                <h3 class="h2 card-title">Make your Pet Woowf</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL
+      -->
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" width="53" height="28" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Hassel Free Service</h3>
+
+                  <p class="card-text">
+                    All orders over <span>INR 500/-</span>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" width="43" height="35" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Quick Payment</h3>
+
+                  <p class="card-text">
+                    100% secure payment
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Free Returns</h3>
+
+                  <p class="card-text">
+                    Money back in 30 days
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-4.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">24/7 Support</h3>
+
+                  <p class="card-text">
+                    Get Quick Support
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="section insta-post">
+
+        <ul class="insta-post-list has-scrollbar">
+
+          <li class="insta-post-item">
+            <img src="./assets/images/7.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/13.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/12.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/9.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/11.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/14.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/10.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/8.png" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/woowf.svg" width="160" height="50" alt="Woowf logo">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                  Gurugram, Haryana
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+91888888887" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+91888888887</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:woowf@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">woowf@help.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">About Woowf</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">About Us</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Press</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Get the App</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Help Center</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Safety</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Opening Time</p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Mon - Tue:</th>
+
+                  <td class="table-data">8AM - 10PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Wed:</th>
+
+                  <td class="table-data">8AM - 7PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Fri:</th>
+
+                  <td class="table-data">7AM - 12PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sat:</th>
+
+                  <td class="table-data">9AM - 8PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sun:</th>
+
+                  <td class="table-data">Closed</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Inbox</p>
+
+            <p class="Inbox-text">
+              By providing my e-mail address, 
+              I consent to receive marketing communications from Woowf.com 
+            </p>
+
+            <form action="" class="Inbox-form">
+              <input type="email" name="email" required placeholder="E-mail Address" class="NewsLetter-input">
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Made By Sam</a>. Privacy
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
