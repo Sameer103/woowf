@@ -4,6 +4,7 @@
 Welcome to the **Woowf** repository! This project is a web platform designed to offer various pet care services tailored for Indian customers, with a primary focus on dogs. The frontend of this project has been developed to provide users with an intuitive, user-friendly interface to explore and book services like dog training, pet sitting, and more.
 
 ## Features
+![image](https://github.com/user-attachments/assets/524c0d96-45f2-4b1d-9c59-0e7b282b9dc4)
 
 - **Home Page:** Overview of the services offered by Woowf.
 - **Service Pages:** Detailed pages for dog training, pet sitting, dog walking, grooming, and more.
